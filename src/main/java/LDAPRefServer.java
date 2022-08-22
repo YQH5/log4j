@@ -60,6 +60,7 @@ public class LDAPRefServer {
                 sendResult(result, base, e);
             } catch (Exception e1) {
                 e1.printStackTrace();
+                System.out.println("hhhhh");
             }
 
         }
